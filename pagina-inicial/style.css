@@ -22,13 +22,12 @@ body{
 }
 
 /* header */
-
 header{
     background-color: black;
     color: white;
     padding-top: 25px;
     padding-bottom: 25px;
-    min-height: 70px;
+    min-height: 90px;
 }
 
 header #logo{
@@ -54,15 +53,52 @@ header nav{
     margin-top: 30px;
 }
 
-header ul{
+header nav ul{
     margin: 0;
     padding: 0;
 }
 
-header li{
+header nav li{
     display: inline;
     padding: 0 20px 0 20px;
 }
 
+header nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+header nav ul li {
+	float: left;
+	position: relative;
+}
+
+.dropdown {
+	display: none;
+	position: absolute;
+	background: #fff;
+	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+
 /* footer */
 
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 70px;
+    font-size: 16px;
+}
+
+footer #logo{
+    float: left;
+    height: 100px;
+}
+
+footer #equipe-phoenix{
+    margin: 0;
+    padding: 0;
+
+}
