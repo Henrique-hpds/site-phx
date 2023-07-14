@@ -101,10 +101,7 @@ footer{
 
 footer #logo{
     float: left;
-}
-
-footer #logo img{
-    height: 200px;
+    height: 100px;
 }
 
 footer #equipe-phoenix{
