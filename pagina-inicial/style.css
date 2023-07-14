@@ -32,6 +32,7 @@ header{
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 50px;
+    padding-right: 50px;
     min-height: 90px;
 }
 
@@ -53,51 +54,39 @@ header a:hover{
     color: var(--phx);
 }
 
-/* main */
-
-main {
-    flex: 1; /* Faz com que o conteúdo principal ocupe o espaço restante */
-    padding-bottom:170px; 
-    padding-left: 50px;
-}
-
-/* Estilos básicos do menu */
-nav{
+header #menu{
     font-size: 50px;
     float: right;
-    margin-top: 30px;
 }
 
-nav ul {
+header #menu ul {
     font-family: 'BLANKA', sans-serif;
     padding: 0;
     margin: 0;
 }
 
-nav ul li {
-    /* font-family: Arial, Helvetica, sans-serif; */
+header #menu ul li {
     display: inline-block;
     position: relative;
 }
 
-nav a {
+header #menu a {
     display: block;
     padding: 10px;
     text-decoration: none;
 }
 
-/* Estilos do menu dropdown */
-nav ul li ul.dropdown {
+header #menu ul li ul.dropdown {
     display: none;
     position: absolute;
     min-width: 200px;
 }
 
-nav ul li:hover ul.dropdown {
+header #menu ul li:hover ul.dropdown {
     display: block;
 }
 
-nav ul li ul.dropdown li {
+header #menu ul li ul.dropdown li {
     display: block;
     background: black;
 }

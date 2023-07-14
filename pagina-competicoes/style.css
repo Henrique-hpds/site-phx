@@ -91,7 +91,6 @@ header #menu ul li ul.dropdown li {
     background: black;
 }
 
-/* main */
 
 /* main */
 main{
@@ -103,7 +102,17 @@ main h1{
     font-family: 'BLANKA', sans-serif;
 }
 
-main 
+main ul{
+    list-style: none;
+    font-family: 'BLANKA', sans-serif;
+    font-size: 19px;
+}
+
+main ul li p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50;
+    font-size: 17px;
+}
 
 /* footer */
 
@@ -139,4 +148,3 @@ footer #equipe-phoenix{
 footer #imagem-unicamp img{
     height: 150px;
 }
-    
