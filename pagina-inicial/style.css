@@ -31,6 +31,7 @@ header{
     color: white;
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 50px;
     min-height: 90px;
 }
 
@@ -50,6 +51,14 @@ header a{
 
 header a:hover{
     color: var(--phx);
+}
+
+/* main */
+
+main {
+    flex: 1; /* Faz com que o conteúdo principal ocupe o espaço restante */
+    padding-bottom:170px; 
+    padding-left: 50px;
 }
 
 /* Estilos básicos do menu */
