@@ -1,23 +1,10 @@
-stages:
-  - deploy
+image: python:latest
 
-deploy:
-  stage: deploy
+pages:
   script:
     - echo "Implantando o site..."
-    - mkdir public
-    - cp -R * public/
   artifacts:
     paths:
       - public/
   only:
     - master
-
-# Notificações por email
-notifications:
-  email:
-    recipients:
-      - viniciusp070204@gmail.com
-    on_success: always
-    on_failure: always
-
