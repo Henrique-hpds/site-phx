@@ -27,13 +27,13 @@ body{
 
 /* header */
 header{
+    min-height: 11vh;
     background-color: black;
     color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
-    min-height: 90px;
+    padding-top: 2.4vh;
+    padding-bottom: 2.4vh;
+    padding-left: 4.4vh;
+    padding-right: 4.4vh;
 }
 
 header #logo{
@@ -41,13 +41,13 @@ header #logo{
 }
 
 header #logo img{
-    height: 100px;
+    height: 6.2vw;
 }
 
 header a{
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.65vw;
 }
 
 header a:hover{
@@ -55,7 +55,6 @@ header a:hover{
 }
 
 header #menu{
-    font-size: 50px;
     float: right;
 }
 
@@ -72,14 +71,14 @@ header #menu ul li {
 
 header #menu a {
     display: block;
-    padding: 10px;
+    padding: 2.3vw;
     text-decoration: none;
 }
 
 header #menu ul li ul.dropdown {
     display: none;
     position: absolute;
-    min-width: 200px;
+    min-width: 7vw;
 }
 
 header #menu ul li:hover ul.dropdown {
@@ -90,33 +89,36 @@ header #menu ul li ul.dropdown li {
     display: block;
     background: black;
 }
-
 /* main */
 
 main {
     flex: 1; /* Faz com que o conteúdo principal ocupe o espaço restante */
-    padding-bottom:170px; 
-    padding-left: 50px;
+    padding-bottom:21vh; 
+    padding-left: 5vh;
 }
 
-h1{
+main h1{
     font-family: 'BLANKA', sans-serif;
+    font-size: 4.5vh;
+}
+
+main div div{
+    font-size: 4.2vh;
 }
 
 .grid-container {
-    padding-left: 50px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Cria três colunas com largura igual */
+    grid-template-columns: repeat(4, 1fr); /* Cria três colunas com largura igual */
     grid-auto-flow: dense;
-    grid-row-gap: 175px;
+    grid-row-gap: 21vh;
 }
   
 .grid-item {
-    height: 100px;
+    height: 6vw;
 }
 
 .grid-item img{
-    height: 250px;
+    height: 24vh;
 }
 
 /* footer */
@@ -124,31 +126,29 @@ h1{
 footer{
     background-color: black;
     color: white;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    min-height: 60px;
-    font-size: 16px;
-    flex-shrink: 0; /* Evita que o rodapé encolha */
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
 }
 
 footer div div{
     display: inline-block;
-    margin: 4%;
+    padding: 1.8vw;
+    margin: 2.5vw;
 }
 
 footer div div h1{
     font-family: 'BLANKA', sans-serif;
+    font-size: 1.55vw;
+}
+
+footer div div p{
+    font-size: 0.9vw;
 }
 
 footer #logo img{
-    height: 150px;
-}
-
-footer #equipe-phoenix{
-    margin: 0;
-    padding: 0;
+    width: 7vw;
 }
 
 footer #imagem-unicamp img{
-    height: 150px;
+    width: 7vw;
 }
